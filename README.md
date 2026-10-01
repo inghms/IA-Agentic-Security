@@ -1,4 +1,4 @@
-# AWS Security Hub Agent — Bedrock AgentCore Runtime
+# AWS Security Hub Agent — Bedrock AgentCore Runtime --> MVP
 
 Agente de análisis de seguridad que consulta AWS Security Hub y genera resúmenes ejecutivos con recomendaciones de remediación, utilizando AWS Bedrock AgentCore Runtime con Strands Agents.
 
@@ -26,7 +26,7 @@ Strands Agent (Claude Sonnet + Tools)
 ## Estructura del Proyecto
 
 ```
-handy_security_agent/
+Security_agent/
 ├── agent/
 │   ├── __init__.py
 │   ├── main.py                    # Entry point (BedrockAgentCoreApp + Strands Agent)
